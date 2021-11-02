@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="description" content="Index"/>
+    <meta name="Author" content="Camila Paredes"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Logo.ico">
+    <script src="https://kit.fontawesome.com/b0205f2b88.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nāginī 3D</title>
+  </head>
+
+
+  <body>
+    <div>
+    <nav>
+      <div class="logo">Nāginī 3D</div>
+      <label for="btn" class="icon">
+         <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      
+      <ul>
+          <li><a href="Index.html">Inicio</a></li>
+          <li>
+             <label for="btn-1" class="show">Productos +</label>
+             <a href="#">Productos</a>
+             <input type="checkbox" id="btn-1">
+             <ul>
+               <li><a href="figuras.html">Figuras</a></li>
+               <li>
+                <label for="btn-2" class="show"> Festividades +</label>
+                <a href="#">Festividades</a>
+                <input type="checkbox" id="btn-2">
+               <ul>
+                  <li><a href="navidad.html">Navidad</a></li>
+                  <li><a href="san-valentin.html">San Valentín</a></li>
+                  <li><a href="halloween.html">Halloween</a></li>
+                </ul>
+                </li>
+                </li>
+                <li><a href="oficina.html">Oficina</a></li>
+             </ul>          
+          </li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+    </nav>
+    <div>
+      <section>
+        <div class="seccion">
+          <div class="home">
+       
+            <form action="" id="formulario" method='POST' onsubmit="return MySubmit()">
+              <h2>Para presupuestos de pedidos específicos o personalizados, dejanos tu mensaje!</h2>   
+                  <p><div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input id="fname" type="text" name="name" class="form-control" placeholder="Abel Pinto">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Correo Electrónico</label>
+                      <input id="email" type="email" class="form-control"  placeholder="abelpinto@gulugulu.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" class="form-control"  rows="8" col="40"></textarea>
+                  </div>
+                  <button onclick='submit()' id="submit" type="Submit" value="Submit">Enviar</button>
+                  </p>
+                </form>
+         </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+    <div class="external">
+      <a href="https://www.facebook.com/nagini3d" target="_blank" ><i class="fab fa-facebook" aria-hidden="true" style="color: #ff5588;"></i></a> 
+      <a href="https://wa.me/message/ZMPRIOMOLJ76I1" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"style="color: #ff5588;"></i></a> 
+      <a href="https://www.instagram.com/nagini3d" target="_blank"><i class="fab fa-instagram" aria-hidden="true"style="color: #ff5588;"></i></a> 
+      <br>
+      <p>Nāginī 3D @2021</p>
+    </div> 
+    </footer>
+</body>
+</html>
